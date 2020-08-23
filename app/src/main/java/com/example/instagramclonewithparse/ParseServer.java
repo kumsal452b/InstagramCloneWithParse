@@ -10,9 +10,9 @@ public class ParseServer extends Application {
         super.onCreate();
         Parse.setLogLevel(Parse.LOG_LEVEL_DEBUG);
         Parse.initialize(new Parse.Configuration.Builder(this)
-                        .clientKey("")
-                        .applicationId("")
-                        .server("")
+                        .clientKey("MkCWxoSyjRq7ZeRIYbXx04Ds5uIsurezKJFS3pRE")
+                        .applicationId("q2vou08N28mNr5k1J6lnPqLUSkC96VeFpo0gO5b9")
+                        .server("https://parseapi.back4app.com/")
                         .build()
         );
     }
